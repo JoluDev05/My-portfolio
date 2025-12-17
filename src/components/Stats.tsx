@@ -1,5 +1,5 @@
 /**
- * Hero component
+ * stats component
  */
 
 /** 
