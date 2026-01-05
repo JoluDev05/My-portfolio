@@ -34,7 +34,7 @@ export const Services = () => {
                 id='services'
             >  
                 <SectionHeader 
-                subtitle="services"
+                subtitle="Services"
                 title="Building whit Purpose & Precision"
                 />
 

@@ -16,6 +16,7 @@ import { Stats } from "@/components/Stats";
 import { Projects } from "@/components/Projects";
 import { About } from "@/components/About";
 import { Services } from "@/components/Services";
+import { Resume } from "@/components/Resume";
 
 export const App = () => {
   return (
@@ -25,6 +26,7 @@ export const App = () => {
       <Projects/>
       <About/>
       <Services/>
+      <Resume/>
     </main>
   );
 };
