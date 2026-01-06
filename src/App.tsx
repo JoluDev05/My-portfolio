@@ -18,6 +18,7 @@ import { About } from "@/components/About";
 import { Services } from "@/components/Services";
 import { Resume } from "@/components/Resume";
 import { Testimonials } from "@/components/Testimonials";
+import { Contact } from "@/components/Contact";
 
 export const App = () => {
   return (
@@ -29,6 +30,7 @@ export const App = () => {
       <Services/>
       <Resume/>
       <Testimonials/>
+      <Contact/>
     </main>
   );
 };
