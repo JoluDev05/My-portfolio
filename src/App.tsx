@@ -17,6 +17,7 @@ import { Projects } from "@/components/Projects";
 import { About } from "@/components/About";
 import { Services } from "@/components/Services";
 import { Resume } from "@/components/Resume";
+import { AchievementsRecognition } from "@/components/AchievementsRecognition";
 import { Contact } from "@/components/Contact";
 import Lenis from 'lenis'
 
@@ -42,6 +43,7 @@ export const App = () => {
       <Services/>
       <Resume/>
       {/* <Testimonials/> */}
+      <AchievementsRecognition />
       <Contact/>
     </main>
   );

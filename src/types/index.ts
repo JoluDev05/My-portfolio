@@ -35,6 +35,12 @@ export type StatsType = {
   label: string;
 };
 
+export type AchievementType = {
+  title: string;
+  place: string;
+  desc: string;
+};
+
 export type TestimonialsType = {
   name: string;
   role: string;

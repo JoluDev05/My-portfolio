@@ -12,6 +12,7 @@ import type {
   ProjectType,
   ServiceType,
   StatsType,
+  AchievementType,
   /*TestimonialsType,*/
   ToolsType,
 } from '@/types';
@@ -237,6 +238,25 @@ const statsData: StatsType[] = [
 ];
 */
 
+const achievementsData: AchievementType[] = [
+  {
+    title: 'Ford Innovation Challenge — Winner',
+    place: 'Ford Motor Company, Hermosillo',
+    desc: 'Won a competitive innovation challenge by developing a data analysis solution focused on production optimization. Worked in a multidisciplinary team to propose a Python-based dashboard that supported machinery usage analysis and production efficiency.',
+  },
+  {
+    title: 'Head of Company Visits — PROXY Conference',
+    place: 'Technological National Institute of Mexico, Hermosillo',
+    desc: 'Led the company visits program for a university technology conference, building relationships between students and local tech companies such as Necodex, Intugo, and Aviada.',
+  },
+  {
+    title: 'Conference Speaker & Volunteer',
+    place: 'TecNM Hermosillo & IA Salon',
+    desc: 'Served as a speaker and volunteer in academic and networking events, delivering talks on basic cybersecurity and presenting real-world software projects.',
+  },
+];
+
+
 export {
   socialLinks,
   projectsData,
@@ -247,4 +267,5 @@ export {
   navLinks,
   statsData,
   /*testimonials,*/
+  achievementsData,
 };
