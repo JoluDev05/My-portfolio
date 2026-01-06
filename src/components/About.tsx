@@ -37,27 +37,30 @@ export const About = () => {
                 variants={fadeUp}
                 className="mt-4 text-neutral-300"
             >
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Autem dicta corporis animi accusantium delectus, quam quos t
-                enetur doloremque cum nemo voluptatum quis incidunt earum 
-                ipsam iusto aliquam doloribus? Culpa, odit!
+                Junior Software Engineer with experience in frontend and mobile development. I have worked on real-world projects using React,
+                 React Native, Redux, and AWS within collaborative and professional environments. I focus on writing clean, maintainable code 
+                 aimed at solving real problems, combining continuous learning with personal and professional projects.
             </motion.p>
 
             <motion.p
                 variants={fadeUp}
                 className="mt-2 text-neutral-300"
             >
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Autem dicta corporis animi accusantium delectus, quam quos t
-                enetur doloremque cum nemo voluptatum quis incidunt earum 
-                ipsam iusto aliquam doloribus? Culpa, odit!
+                Beyond technical skills, I value clarity, structure, and purpose in every project I work on.
+                 I enjoy collaborating with teams, understanding requirements, and 
+                 translating ideas into intuitive user experiences. My background
+                 has allowed me to work with real production codebases,
+                 follow development workflows, and continuously improve 
+                 my problem-solving and communication skills.
             </motion.p>
 
             <motion.div
                 variants={fadeUp}
                 transition={{delay: 0.2}}
             >
-                <Button className="mt-5">Contact me</Button>
+                <Button className="mt-5" asChild>
+                    <a href="#contact">Contact me</a>
+                </Button>
             </motion.div>
 
         </motion.section>

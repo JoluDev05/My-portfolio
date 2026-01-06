@@ -12,7 +12,7 @@ import type {
   ProjectType,
   ServiceType,
   StatsType,
-  TestimonialsType,
+  /*TestimonialsType,*/
   ToolsType,
 } from '@/types';
 
@@ -28,7 +28,6 @@ import {
   Instagram,
   Layers,
   Mail,
-  MessageCircle,
   Palette,
   Rocket,
   Settings,
@@ -52,11 +51,6 @@ const navLinks: LinksType[] = [
     icon: Settings,
   },
   { label: 'Resume', link: '#resume', icon: FileText },
-  {
-    label: 'Reviews',
-    link: '#testimonials',
-    icon: MessageCircle,
-  },
   { label: 'Contact', link: '#contact', icon: Mail },
 ];
 
@@ -112,37 +106,32 @@ const projectsData: ProjectType[] = [
 
 const education: ExperienceType[] = [
   {
-    year: '2018 – 2020',
-    title: 'Bachelor of Computer Science',
-    institute: 'National University of Technology',
+    year: '2021 – 2025',
+    title: 'Bachelor of Computer Systems Engineering',
+    institute: 'Technological National Institute of Mexico (TecNM)',
     desc: 'Focused on front-end development, UI design, and web application architecture.',
   },
-  {
-    year: '2021 – 2022',
-    title: 'Frontend Development Bootcamp',
-    institute: 'Udemy / Online Course',
-    desc: 'Learned modern JavaScript, React, and responsive UI patterns through real-world projects.',
-  },
+
   {
     year: '2023',
-    title: 'Advanced UI/UX Design Course',
-    institute: 'Design+Code',
-    desc: 'Explored advanced design systems, motion design, and accessibility best practices.',
+    title: 'Python Programming Course',
+    institute: 'Udemy',
+    desc: 'Covered programming fundamentals, logic, data structures, and practical problem-solving using Python.',
+  },
+    {
+    year: '2025 - 2026',
+    title: 'Frontend Development Bootcamp',
+    institute: 'Udemy / Online Course',
+    desc: 'Currently learning modern frontend development with React, TypeScript, Next.js, state management, and best practices for scalable applications.',
   },
 ];
 
 const experience: ExperienceType[] = [
   {
-    year: '2021 – 2022',
-    title: 'Frontend Developer Intern',
-    institute: 'PixelForge Studio',
-    desc: 'Built and optimized responsive websites, collaborating closely with designers and backend teams.',
-  },
-  {
-    year: '2022 – Present',
-    title: 'UI Engineer',
-    institute: 'Freelance / Remote Work',
-    desc: 'Designed and developed web interfaces for SaaS startups using React, Tailwind, and Figma.',
+    year: '2025',
+    title: 'Frontend / Mobile Developer Intern',
+    institute: 'Nerito',
+    desc: 'Worked on real-world mobile and web applications using React Native and React.  Implemented state management with Redux Toolkit, integrated REST APIs, and contributed to testing using Jest. Collaborated with cross-functional teams using Git, Jira, and Agile workflows, gaining experience with production codebases and AWS services.',
   },
 ];
 
@@ -171,65 +160,59 @@ const tools: ToolsType[] = [
     label: 'Node.js',
     imgSrc: '/images/tools/nodejs.svg',
   },
-  {
-    label: 'Express.js',
-    imgSrc: '/images/tools/expressjs.svg',
-  },
-  {
-    label: 'Mongodb',
-    imgSrc: '/images/tools/mongodb.svg',
-  },
+  
 ];
 
 const services: ServiceType[] = [
   {
-    title: 'Brand Identity',
-    desc: 'I craft modern visual identities that help brands stand out through strong typography, colors, and minimal design.',
-    projects: '32 Projects',
-    icon: <Palette className='h-6 w-6 text-green-400' />,
-  },
-  {
     title: 'UI/UX Design',
-    desc: 'Designing clean, intuitive, and user-friendly interfaces that improve user experience and boost conversions.',
-    projects: '47 Projects',
+    desc: 'Designing clean, intuitive, and user-centered interfaces with a strong focus on usability and visual clarity.',
     icon: <Layers className='h-6 w-6 text-green-400' />,
   },
   {
-    title: 'Web Development',
-    desc: 'Building high-performance, SEO-friendly websites using Next.js, Tailwind, and modern web technologies.',
-    projects: '58 Projects',
+    title: 'Frontend Web Development',
+    desc: 'Building responsive and scalable web interfaces using React, Next.js, and modern frontend best practices.',
     icon: <Globe className='h-6 w-6 text-green-400' />,
   },
   {
-    title: 'Mobile App Design',
-    desc: 'Creating pixel-perfect app interfaces optimized for both iOS and Android devices with smooth usability.',
-    projects: '21 Projects',
+    title: 'Mobile App Development',
+    desc: 'Developing cross-platform mobile applications with React Native, focused on performance and smooth user experience.',
     icon: <Smartphone className='h-6 w-6 text-green-400' />,
   },
   {
-    title: 'Product Launch Strategy',
-    desc: 'Helping startups prepare their digital products for launch with design systems, marketing pages, and assets.',
-    projects: '15 Projects',
+    title: 'Design to Code',
+    desc: 'Transforming Figma designs into clean, maintainable, and production-ready code with pixel-perfect accuracy.',
+    icon: <Palette className='h-6 w-6 text-green-400' />,
+  },
+  {
+    title: 'Frontend Improvements',
+    desc: 'Improving existing interfaces by fixing bugs, optimizing performance, and enhancing UI consistency.',
     icon: <Rocket className='h-6 w-6 text-green-400' />,
   },
 ];
 
 const statsData: StatsType[] = [
   {
-    number: '30+',
-    label: 'Happy Clients',
-  },
-  {
-    number: '05+',
+    number: '02+',
     label: 'Years Of Experience',
   },
   {
-    number: '50+',
+    number: '10',
     label: 'Projects Done',
   },
+  {
+  number: '05+',
+  label: 'Production Projects',
+  }
+
 ];
 
-const testimonials: TestimonialsType[] = [
+
+/**
+ * Testimonials off
+ */
+/**
+ * const testimonials: TestimonialsType[] = [
   {
     name: 'Alex Tomato',
     role: 'Brand Manager at Instant Design',
@@ -252,6 +235,7 @@ const testimonials: TestimonialsType[] = [
     link: '#',
   },
 ];
+*/
 
 export {
   socialLinks,
@@ -262,5 +246,5 @@ export {
   services,
   navLinks,
   statsData,
-  testimonials,
+  /*testimonials,*/
 };

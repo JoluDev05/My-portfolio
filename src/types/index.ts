@@ -22,7 +22,6 @@ export type ExperienceType = {
 export type ServiceType = {
   title: string;
   desc: string;
-  projects: string;
   icon: JSX.Element;
 };
 

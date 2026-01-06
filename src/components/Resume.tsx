@@ -42,12 +42,10 @@ export const Resume = () => {
                 variants={fadeUp}
                 className="mt-4 text-neutral-300"
             >
-                lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-                officia deserunt mollit anim id est laborum.
+                I am a junior software engineer with hands-on experience in frontend and mobile development,
+                 gained through real-world projects and a dual education model. My background 
+                 combines academic training with practical industry experience, allowing me to 
+                 work with production code, collaborative teams, and modern development workflows.
             </motion.p>
 
             <div className="grid gap-x-10 my-16 md:grid-cols-2">
@@ -96,7 +94,7 @@ export const Resume = () => {
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.3 }}
                     variants={staggerContainer(0.5)}
-                    className="grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-5"
+                    className="grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-3"
                     >
                         {tools.map((tool, i) => (
                             <ToolsCard 
