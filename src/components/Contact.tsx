@@ -9,7 +9,7 @@
 import {useForm} from "react-hook-form";
 import {motion} from "motion/react";
 import emailjs from '@emailjs/browser';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 /**
  * Custom modules

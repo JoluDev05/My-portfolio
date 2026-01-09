@@ -5,17 +5,18 @@
 /**
  * Node modules imports
  */
+/** 
 import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
-
+*/
 /**
  * custom modules
- */
+ 
 import { fadeUp } from "@/lib/animations";
-
+*/
 /**
  * Assets
- */
+
 
 import {
     ChevronLeftIcon,
@@ -23,10 +24,13 @@ import {
     SparkleIcon,
     StarIcon,
 } from 'lucide-react';
-
+ */
 /**
  * constants
  */
+
+
+/** 
 import { testimonials } from "@/constants";
 
 export const Testimonials = () => {
@@ -123,3 +127,4 @@ export const Testimonials = () => {
         </motion.section>  
     );
 };
+*/

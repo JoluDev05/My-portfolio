@@ -5,7 +5,7 @@
 /**
  * Node Modules imports
  */
-import { delay, motion} from "motion/react"
+import { motion} from "motion/react"
 
 /**
  * Custom modules

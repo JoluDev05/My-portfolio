@@ -16,7 +16,7 @@ export const ServiceCard = ({ service }: { service: ServiceType }) => {
                 <p className="text-neutral-300 mb-3"> {service.desc}</p>
 
                 <span className="text-sm lining-nums text-neutral-400 font-medium uppercase tracking-wide">
-                    {service.projects}
+                    
                 </span>
             </div>
             <div className="shrink-0">{service.icon}</div>
