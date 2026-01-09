@@ -3,7 +3,7 @@
  * Displays a list of achievements and recognitions.
  */
 import { motion } from 'motion/react';
-import { FileText } from 'lucide-react';
+import { Award } from 'lucide-react';
 
 import { SectionHeader } from '@/components/SectionHeader';
 import { fadeUp, staggerContainer } from '@/lib/animations';
@@ -48,7 +48,7 @@ export const AchievementsRecognition = () => {
 						</div>
 
 						<div className="shrink-0">
-							<FileText className="h-6 w-6 text-green-400" />
+							<Award className="h-6 w-6 text-green-400" />
 						</div>
 					</motion.article>
 				))}

@@ -28,14 +28,15 @@ import {
   Home,
   Instagram,
   Layers,
+  Linkedin,
   Mail,
   Palette,
   Rocket,
   Settings,
   Smartphone,
-  Twitter,
   User,
-  Youtube,
+  Trophy,
+  Github,
 } from 'lucide-react';
 
 const navLinks: LinksType[] = [
@@ -52,6 +53,7 @@ const navLinks: LinksType[] = [
     icon: Settings,
   },
   { label: 'Resume', link: '#resume', icon: FileText },
+  {label: 'Achievements', link: '#achievements', icon: Trophy },
   { label: 'Contact', link: '#contact', icon: Mail },
 ];
 
@@ -59,49 +61,49 @@ const socialLinks: LinksType[] = [
   {
     icon: Facebook,
     label: 'Facebook',
-    link: '/#',
+    link: 'https://www.facebook.com/jorgeluis.arce.9400/',
   },
   {
     icon: Instagram,
     label: 'Instagram',
-    link: '/#',
+    link: 'https://www.instagram.com/luis_arce_hu/',
   },
   {
-    icon: Twitter,
-    label: 'Twitter',
-    link: '/#',
+    icon: Linkedin,
+    label: 'Linkedin',
+    link: 'https://www.linkedin.com/in/jorge-luis-arce-huerta-3b1a9830a/',
   },
   {
-    icon: Youtube,
-    label: 'Youtube',
-    link: '/#',
-  },
+    icon: Github,
+    label: 'Github',
+    link: 'https://github.com/JoluDev05',
+  }
 ];
 
 const projectsData: ProjectType[] = [
   {
     imgSrc: '/images/project-ph-1.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    title: 'Guitar store landing page',
+    tags: ['API', 'React development', 'Design', 'Redux Toolkit'],
+    projectLink: 'https://jazzy-centaur-be9970.netlify.app/',
   },
   {
     imgSrc: '/images/project-ph-2.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    title: 'Calorie tracker',
+    tags: ['API', 'React development','Design'],
+    projectLink: 'https://wonderful-daffodil-c4cdb4.netlify.app/',
   },
   {
     imgSrc: '/images/project-ph-3.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    title: 'Restaurant service calculator',
+    tags: ['API', 'React development', 'Design', 'Redux Toolkit'],
+    projectLink: 'https://unique-raindrop-1c595a.netlify.app/',
   },
   {
     imgSrc: '/images/project-ph-4.jpeg',
-    title: 'Full stack music app',
-    tags: ['API', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/',
+    title: 'Personal portfolio',
+    tags: ['API', 'React development','Framer Motion'],
+    projectLink: '',
   },
 ];
 

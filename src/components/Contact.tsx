@@ -79,7 +79,7 @@ export const Contact = () => {
                             control={form.control}
                             name="name"
                             render={({ field }) => (
-                                <FormItem className="w-full">
+                                <FormItem className="w-full ">
                                     <FormControl>
                                         <Input 
                                             placeholder="Your name"

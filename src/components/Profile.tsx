@@ -14,7 +14,7 @@ export const Profile = () => {
         <div className="flex flex-col gap-4">
             <div className="flex items-center justify-between gap-x-10">
                 <h1 className="text-3xl font-bold">Jorge</h1>
-                <p className="text">Frontend Developer</p>
+                <p className="text">Web Developer</p>
             </div>
             <img 
                 src='avatar.jpg'
@@ -24,7 +24,7 @@ export const Profile = () => {
             
             <div className="mt-6">
                 <p className="text-sm text-neutral-300">Specialization:</p>
-                <p className="text-lg capitalize">UI/UX designer and Frontend Developer</p>
+                <p className="text-lg capitalize">Frontend Developer</p>
             </div>
 
             <div>
@@ -51,7 +51,7 @@ export const Profile = () => {
                     className="mt-2"
                     size="lg"
                     >
-                        Let's work together
+                        <a href="#contact">Let's work together</a>
                         
                     </Button>
         </div>
