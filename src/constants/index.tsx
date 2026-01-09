@@ -84,25 +84,25 @@ const projectsData: ProjectType[] = [
   {
     imgSrc: '/images/project-ph-1.jpeg',
     title: 'Guitar store landing page',
-    tags: ['API', 'React development', 'Design', 'Redux Toolkit'],
+    tags: ['API', 'React', 'Design', 'Redux'],
     projectLink: 'https://jazzy-centaur-be9970.netlify.app/',
   },
   {
     imgSrc: '/images/project-ph-2.jpeg',
     title: 'Calorie tracker',
-    tags: ['API', 'React development','Design'],
+    tags: ['API', 'React','Design'],
     projectLink: 'https://wonderful-daffodil-c4cdb4.netlify.app/',
   },
   {
     imgSrc: '/images/project-ph-3.jpeg',
     title: 'Restaurant service calculator',
-    tags: ['API', 'React development', 'Design', 'Redux Toolkit'],
+    tags: ['API', 'React', 'Design', 'Redux'],
     projectLink: 'https://unique-raindrop-1c595a.netlify.app/',
   },
   {
     imgSrc: '/images/project-ph-4.jpeg',
     title: 'Personal portfolio',
-    tags: ['API', 'React development','Framer Motion'],
+    tags: ['API', 'React','Framer Motion'],
     projectLink: '',
   },
 ];

@@ -59,7 +59,11 @@ export const Hero = () => {
                 </a>
             </Button>
 
-            <Button variant='outline'>Download cv</Button>
+            <Button variant='outline' asChild>
+                <a href={encodeURI('/CV- Jorge Luis Arce Huerta.pdf')} download>
+                    Download CV
+                </a>
+            </Button>
             
         </motion.div>
 
