@@ -136,6 +136,12 @@ const experience: ExperienceType[] = [
     institute: 'Nerito',
     desc: 'Worked on real-world mobile and web applications using React Native and React.  Implemented state management with Redux Toolkit, integrated REST APIs, and contributed to testing using Jest. Collaborated with cross-functional teams using Git, Jira, and Agile workflows, gaining experience with production codebases and AWS services.',
   },
+   {
+    year: '2026',
+    title: 'Junior Web & Mobile Developer',
+    institute: 'Inowu Development',
+    desc: 'Built scalable web applications with Next.js and contributed to e-commerce and educational platforms. Focused on performance optimization, API integration, and improving user experience. Collaborated on a React Native mobile app, developing interfaces and integrating REST APIs within agile teams.',
+  }
 ];
 
 const tools: ToolsType[] = [
